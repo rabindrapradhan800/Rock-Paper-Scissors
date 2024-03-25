@@ -1,0 +1,91 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}   
+.containter h1{
+    text-align: center;
+    background-color:rgb(5, 5, 53);
+    color: white;
+    padding: 10px;
+}   
+          /* Design the three images part */
+
+.container-one{
+  border: solid 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(171, 164, 164);
+}
+
+.img{
+  margin: 10px;
+}
+#first-img{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  background-color: crimson;
+}
+#first-img:hover{
+  background-color: aqua;
+}
+#third-img{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  background-color: crimson;
+}
+#third-img:hover{
+  background-color: cornflowerblue;
+}
+#Second-img{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(78, 196, 78);
+}
+img{
+ height: 100%;
+ width: 100%;
+ border-radius: 50%;
+ border: solid 4px black;
+ background-color: aqua;
+ cursor: pointer;
+} 
+            /*Design the score-part */
+.secor-value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-box{
+  display: flex;
+}
+.box{
+  margin: 10px;
+}
+p{
+  font-size: 30px;
+}
+.message-box{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+            /* Design the message box */
+#Message{
+  padding: 10px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  background-color: black;
+  color: white; 
+  font-size: 30px;
+}
+          /* response the website */
+
+  @media only  screen and(min-width:400px) and (max-width:800px){
+
+  }        
